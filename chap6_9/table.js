@@ -10,3 +10,6 @@ document.write(a+"*"+7+"="+ a*7+"<br>");
 document.write(a+"*"+8+"="+ a*8+"<br>");
 document.write(a+"*"+9+"="+ a*9+"<br>");
 document.write(a+"*"+10+"="+ a*10+"<br>");
+
+
+

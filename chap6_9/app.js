@@ -24,26 +24,24 @@ var re= --a - --b + ++b + b--;
 //  --a - --b + ++b; // 1-0+1
 //  --a - --b + ++b + b--;// 1-0+1+1
 
-// document.write("a is: "+a+"<br>");
-// document.write("b is: "+b+"<br>");
-// document.write("Result is: "+re+"<br>");
+document.write("a is: "+a+"<br>");
+document.write("b is: "+b+"<br>");
+document.write("Result is: "+re+"<br>");
 
 
 // ///////Q3
-// var a = prompt("Enter your name: ");
-// alert("Good day "+a);
+var a = prompt("Enter your name: ");
+alert("Good day "+a);
 
 
-// var cities = ["Atlanta", "Baltimore", "Chicago", "Denver", "Los Angeles", "Seattle"];
-// alert(cities);
+var cities = ["Atlanta", "Baltimore", "Chicago", "Denver", "Los Angeles", "Seattle"];
+alert(cities);
 
 
-// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
-// document.write(fruits)
-// for(var i ; i<=fruits ;i++){
-//     document.write(fruits[i]+"<br>");
-//     document.write("The element at index "+[i]+" is"+ fruits[i]);
-
-
+var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+document.write(fruits)
+for(var i ; i<=fruits ;i++){
+    document.write(fruits[i]+"<br>");
+    document.write("The element at index "+[i]+" is"+ fruits[i]);
 }
 

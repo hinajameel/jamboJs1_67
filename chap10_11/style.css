@@ -1,0 +1,30 @@
+
+.cont{
+    font-size: 20px;
+    background: #061941;
+    color: pink;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    text-decoration: underline;
+    background-color: #CAD9FA;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.myButton {
+box-shadow:inset 0px 0px 0px 0px pink;
+/* background:linear-gradient(to bottom,  #7C1B84 5%, #F5D9F7 100%); */
+background-color:#dde6de;
+border-radius:3px;
+border:1px solid  #123030;
+display:inline-block;
+cursor:pointer;
+color:#2e887c;
+font-family:Verdana;
+padding:16px 53px;
+text-decoration:none;
+}
